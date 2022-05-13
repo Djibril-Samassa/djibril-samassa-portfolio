@@ -1,0 +1,37 @@
+{
+    "cuisine": {
+        "title" : "Cui'zine",
+        "description":"Reproduire l’image de templates en HTML/CSS, les rendre responsive, permettre la navigation, s'aider avec Bootstrap",
+        "languages":"HTML, CSS, Bootstrap FontAwesome",
+        "repo_link": "https://github.com/Djibril-Samassa/projet_cuisine",
+        "details":"Site vitrine en HTML/CSS présentant des recettes et des cuisiniers"
+    },
+    "rover": {
+        "title":"Rover",
+        "description":"Ecrire un programme en Javascript qui permettrait à un robot de se déplacer vers le haut, le bas, la droite ou la gauche dans un tableau",
+        "languages":"Javascript",
+        "repo_link":"https://github.com/Djibril-Samassa/Projet-Rover",
+        "details":"Code en JavaScript qui permet de piloter un robot grâce à des fonctions"
+    },
+    "moovice": {
+        "title":"Moovice",
+        "description":"Coder un site qui permet de récupérer une liste de films dans une base de données et intéragir avec ses films dans tout le site",
+        "languages":"React, Javascript, Json",
+        "repo_link":"https://github.com/Djibril-Samassa/Moovice",
+        "details":"Coder un site en React permettant de voir les films du moments et de les ajouter aux favoris"
+    },
+    "weather_app": {
+        "title":"Weather",
+        "description":"Faire une Application permettant de récupérer des données sur la météo, et les présenter, permmettre à l'utilisateur de voir celle de la ville de son choix",
+        "languages":"React JavaScript, Json",
+        "repo_link":"https://github.com/Djibril-Samassa/Weather-App",
+        "details":"Créer un site permettant de voir la météo grâce à des information récuperées sur une API"
+    },
+    "tinywork": {
+        "title":"Tinywork",
+        "description":"Créer un site pour permettre aux habitants de Seine Saint Denis qui souhaiteraient travailler dans des espaces de coworking de préserver leur place ",
+        "languages":"React Javascript, JSON, Figma, Trello, Miro, ",
+        "repo_link":"https://www.tinywork.care/",
+        "details":"Créer un site permettant la réservation d'espace de Coworking, en Seine saint Denis"
+    }
+}

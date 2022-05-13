@@ -1,38 +1,414 @@
-.App {
-  text-align: center;
+@font-face{
+  font-family: "Koulen";
+  src: url("../public/Fonts/Koulen/Koulen-Regular.ttf");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "Alegreya_thin";
+  src: url("../public/Fonts/Alegreya/AlegreyaSansSC-Thin.ttf");
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: "Alegreya_reg";
+  src: url("../public/Fonts/Alegreya/AlegreyaSansSC-Regular.ttf");
 }
 
-.App-header {
-  background-color: #282c34;
+.app_container{
+  background: linear-gradient(
+  rgba(0, 0, 0, 0.55), 
+  rgba(0, 0, 0, 0.55)),url("../public/Images/header_bgc.jpg")no-repeat;background-size:cover;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  margin: 0px;
+  text-align: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.presentation{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+.thinText{
+  font-family: "Alegreya_thin";
+  margin: 5px;
+}
+
+.boldText{
+  font-family: "Koulen";
+  margin: 5px;
+}
+
+.regularText{
+  font-family: "Alegreya_reg";
+  margin: 5px;
+}
+
+.presentation_choice{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 80%
+}
+
+.option{
+  font-family: "Alegreya_reg";
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 0.5em;
+  transform: scale(1);
+  transition-duration: 350ms;
+  color: white;
+  text-decoration: none;
+}
+
+.option:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  background-color: lightgray;
+  color: black;
+}
+
+option:active{
+  background-color: red;
+}
+
+.option:active{
+  transform: scale(1);
+}
+
+.accueil_container{
+  padding: 2em 0em;
+}
+
+.text_container{
+  text-align: left;
+  margin: 2em 3em;
+}
+
+.bloc_title{
+  margin: 1em;
+  text-align: left;
+}
+
+.bloc_title::first-letter{
+  text-decoration: underline;
+  font-family: "Alegreya_reg";
+}
+
+.konexio{
+  color: white;
+}
+
+.icons_container{
+  width: 100%;
+  justify-content: space-around;
+  display: flex;
+}
+
+.icon{
+  margin: 0.5em;
+}
+
+.second_bloc{
+  width: 50%;
+}
+
+.competences_container{
+  display: flex;
+}
+
+.skills_container{
+  display: flex;
+  flex-direction: column;
+}
+
+.skills{
+  font-family: "Koulen";
+}
+
+.skills2{
+  font-family: "Koulen";
+  text-align: center;
+}
+
+.projets_card_container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card_container{
+  max-width: 20%;
+  display: inline-block;
+  margin: 0.4em;
+  padding: 0.5em;
+  border-radius: 5px;
+  transform: scale(1);
+  transition-duration: 300ms;
+  border: 1px solid lightgray;
+  background-color: lightgray;
+  color: black;
+}
+
+.projet_title{
+  font-family: "Koulen";
+  text-align: center;
+}
+
+.projet_details{
+  font-family: "Alegreya_reg";
+  font-size: 0.8em;
+}
+
+.showOnGithub{
+  font-family: "Alegreya_thin";
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  transform: scale(1);
+  transition-duration: 200ms;
+}
+
+.showOnGithub:hover{
+  transform: scale(1.2);
+  color: white;
+}
+
+#cuizine-no-det{
+  cursor: pointer;
+  height: 50vh;
+  width: 20%;
+  background:url("../public/Images/cuizine.png")no-repeat;background-size:cover;
+}  
+
+#cuizine-no-det:hover{
+  background: lightgray;
+}
+
+#rover-no-det{
+  cursor: pointer;
+  height: 50vh;
+  width: 20%;
+  background:url("../public/Images/rover.jpg")no-repeat;background-size:cover;
+}
+
+#rover-no-det:hover{
+  background: lightgray;
+}
+
+#moovice-no-det{
+  cursor: pointer;
+  height: 50vh;
+  width: 20%;
+  background:url("../public/Images/moovice.jpg")no-repeat;background-size:cover;
+}
+
+#moovice-no-det:hover{
+  background: lightgray;
+}
+
+#weather_app-no-det{
+  cursor: pointer;
+  height: 50vh;
+  width: 20%;
+  background:url("../public/Images/weather_app.jpg")no-repeat;background-size:cover;
+}
+
+#weather_app-no-det:hover{
+  background: lightgray;
+}
+
+#tinywork-no-det{
+  cursor: pointer;
+  height: 50vh;
+  width: 20%;
+  background:url("../public/Images/tinywork.png")no-repeat;background-size:cover;
+}
+
+#tinywork-no-det:hover{
+  background: lightgray;
+}
+
+.test{
+  background-color: black;
+  color: white;
+}
+
+.single:hover .details_proposition{
+  opacity: 1;
+}
+
+.single:hover .details_explication{
+  opacity: 1;
+}
+
+.details_proposition{
+  display: flex;
+  justify-content: center;
+  font-family: "Koulen";
+  font-size: 0.7em;
+  opacity: 0;
+}
+.details_explication{
+  display: flex;
+  justify-content: center;
+  font-family: "Alegreya_reg";
+  opacity: 0;
+}
+
+.footer{
+  margin: 0px;
+  background: linear-gradient(
+  rgba(0, 0, 0, 1), 
+  rgba(0, 0, 0, 1));
+  font-family: "Koulen";
+}
+
+.motivation{
+  text-align: left;
+  margin: 2em;
+}
+
+.formation_container{
+  margin: 2em;
+  text-align: left;
+}
+
+.formation_title{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.formation_name{
+  font-family:"Alegreya_reg";
+  margin: 0px;
+  font-size: 1em;
+}
+
+.year{
+  font-family: "Koulen";
+  margin: 0px;
+}
+
+.tasks{
+  font-family: "Alegreya_thin";
+  margin: 0px;
+}
+
+.contactContainer{
+  align-items: center;
+  display: flex;
+}
+
+.dataIcon{
+  margin: 0em 2em;
+}
+
+.takeContact{
+  color: white;
+  text-decoration: none;
+}
+
+.takeContact:hover{
+  text-decoration: underline;
+}
+
+.contactLink{
+  text-decoration: none;
+  color:red
+}
+
+@media (max-width: 1100px) {
+  .presentation_choice{
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+
+  .presentation_choice >a{
+    width: 100%;
+    margin: 0px;
   }
+
+
+  .option{
+    width: 30%;
+    margin: 0.1em
+  }
+
+  .bloc_title{
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .contactContainer{
+    width:75%;
+    margin: 0 auto;
+  }
+
+  .hobbies{
+    text-align: center;
+  }
+
+  .competences_container{
+    flex-direction: column;
+  }
+
+  .competences_bloc{
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 750px) {
+  .bloc_title{
+    margin: 0px;
+    width: 100%;
+  }
+
+  .projets_card_container{
+    flex-direction: column;
+  }
+
+  .single{
+    height: 0.5em;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .card_container{
+    width: 100%;
+    max-width: 100%;
+  }
+
+  #moovice-no-det{
+    margin: 0.5em auto;
+    height: 10vh;
+  }
+
+  #tinywork-no-det{
+    margin: 0.5em auto;
+    height: 10vh;
+  }
+
+  #weather_app-no-det{
+    margin: 0.5em auto;
+    height: 10vh;
+  }
+
+  #rover-no-det{
+    margin: 0.5em auto;
+    height: 10vh;
+  }
+
+  #cuizine-no-det{
+    margin: 0.5em auto;
+    height: 10vh;
+  }
+
 }

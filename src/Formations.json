@@ -1,0 +1,49 @@
+{
+    "galilée" : {
+        "title" : "Lycee Professionnel Galilee, Paris",
+        "year" : "Septembre 2017 - Juillet 2022",
+        "task" : "Obtention du Bac avec la mention (bien)"
+    },
+
+    "konexio" : {
+        "title" : "Developpeur web et web mobile – Konexio",
+        "year" : "Novembre 2021 - En cours",
+        "task1" : "Developper la partie front-back end d’une application web ou mobile en Javascript",
+        "task2" : "Intégrer et réaliser des interfaces utilisateur dynamiques et responsives",
+        "task3" : "Concevoir des bases de donnees, faire des requetes, developper des composants d’accès aux donnees",
+        "task4" : "Langages utilises : HTML, CSS, Javascript, Jquery",
+        "task5" : "Librairie : Bootstrap,",
+        "task+" : "Frameworks : React JS,Node JS, Express, ",
+        "task7" : "Bases de donnees : MongoDB et SQL",
+        "task8" : "Préparation diplôme Developpeur Web RNCP Niveau V (Bac+2)"
+        },
+
+    "animation" : {
+        "title" : "Animateur Mairie du 20e Ecole primaire Olivier Métra, Paris",
+        "year" : "Novembre 2020 - Septembre 2021",
+        "task1" : "Mise en œuvre, encadrement d'activités et gestion d’enfants",
+        "task2": "Responsable de la sécurité et le bien-être des enfants ",
+        "task3" : "Aide aux devoirs "
+    },
+
+    "eurotech" : {
+        "title" : " Technicien de maintenance (stage) Eurotech Security Montreuil, France ",
+        "year" : "Avril 2019 - Juin 2019",
+        "task1" : "Maintenance des moteurs des équipements (volets, portails, etc.), ",
+        "task2" : "réparation d’interphones ",
+        "task3" : "Installation de Spots LED et d’interrupteurs "
+    },
+
+    "novaip" : {
+        "title" : "Technicien de maintenance (stage) NOVA IP Paris",
+        "year" : "Novembre 2019 - Janvier 2021",
+        "task" : "Installation et mis en services des caméras, des enregistreurs et d’appareils techniques BtoB et BtoC"
+    },
+
+    "hightech" : {
+        "title" : "Technicien de maintenance (stage) High Tech Repair Center Paris ",
+        "year" : "Avril 2018 - Juin 2018",
+        "task1" : "Maintenance d'ordinateurs (Windows)",
+        "task2": "Installation des Systèmes d'exploitation et des pilotes"
+    }
+}
