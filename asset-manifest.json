@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/djibril-samassa-portfolio/static/css/main.3f83a2c0.css",
+    "main.js": "/djibril-samassa-portfolio/static/js/main.7c626e88.js",
+    "static/js/787.b73cc92e.chunk.js": "/djibril-samassa-portfolio/static/js/787.b73cc92e.chunk.js",
+    "static/media/cuizine.png": "/djibril-samassa-portfolio/static/media/cuizine.386860e1c903938f6bd2.png",
+    "static/media/header_bgc.jpg": "/djibril-samassa-portfolio/static/media/header_bgc.84f34356e06eb255509d.jpg",
+    "static/media/AlegreyaSansSC-Regular.ttf": "/djibril-samassa-portfolio/static/media/AlegreyaSansSC-Regular.d215c944a70a1f2ba744.ttf",
+    "static/media/AlegreyaSansSC-Thin.ttf": "/djibril-samassa-portfolio/static/media/AlegreyaSansSC-Thin.e73d359dbdccfc747d89.ttf",
+    "static/media/tinywork.png": "/djibril-samassa-portfolio/static/media/tinywork.c23aac7dd50b994b5b32.png",
+    "static/media/rover.jpg": "/djibril-samassa-portfolio/static/media/rover.3b3fb4844ef45cb1d9d7.jpg",
+    "static/media/weather_app.jpg": "/djibril-samassa-portfolio/static/media/weather_app.f83c8af2465ec95aa1ad.jpg",
+    "static/media/Koulen-Regular.ttf": "/djibril-samassa-portfolio/static/media/Koulen-Regular.e23002c698c2632e9437.ttf",
+    "static/media/moovice.jpg": "/djibril-samassa-portfolio/static/media/moovice.507ef5b4e7df429b79c3.jpg",
+    "index.html": "/djibril-samassa-portfolio/index.html",
+    "main.3f83a2c0.css.map": "/djibril-samassa-portfolio/static/css/main.3f83a2c0.css.map",
+    "main.7c626e88.js.map": "/djibril-samassa-portfolio/static/js/main.7c626e88.js.map",
+    "787.b73cc92e.chunk.js.map": "/djibril-samassa-portfolio/static/js/787.b73cc92e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f83a2c0.css",
+    "static/js/main.7c626e88.js"
+  ]
+}
