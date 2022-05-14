@@ -391,8 +391,8 @@ p{
     width: 100%;
   }
 
-  .takeContact{
-    font-size: 1em;
+  .contactContainer{
+    flex-direction: column;
   }
 
   .presentation{
