@@ -391,6 +391,10 @@ p{
     width: 100%;
   }
 
+  .takeContact{
+    font-size: 1em;
+  }
+
   .presentation{
     padding: 0px;
     margin: 0px;
