@@ -1,5 +1,4 @@
 import './App.css';
-import Header from './Components/Header';
 import Accueil from './Pages/Accueil';
 import Parcours from './Pages/Parcours';
 import Presentation from './Components/Presentation';
@@ -10,7 +9,7 @@ import Coordonnees from './Pages/Coordonnees';
 import Footer from './Components/Footer.js';
 import { Route, Routes } from 'react-router-dom';
 import { BrowserRouter } from 'react-router-dom';
-import { createContext, useContext, useState } from 'react';
+import { createContext, useState } from 'react';
 
 export const showContext = createContext()
 
@@ -23,10 +22,11 @@ function App() {
   }
 
   return(
-    <div className='app_container'>
     <showContext.Provider value={value}>
       <BrowserRouter>
+      <div className='app_container'>
         {showPres ? <Presentation/> : <Accueil/>}
+      </div>
         <Routes>
 
           <Route path="/apropos" element={<About/>}/>
@@ -35,10 +35,8 @@ function App() {
           <Route path="/parcours" element={<Parcours/>}/>
           <Route path="/coordonnees" element={<Coordonnees/>}/>
         </Routes>
-        <Footer/>
       </BrowserRouter>
-    </showContext.Provider>
-    </div>)
+    </showContext.Provider>)
 }
 
 export default App;

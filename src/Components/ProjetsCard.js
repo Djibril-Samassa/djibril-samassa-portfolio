@@ -5,7 +5,7 @@ import "../App.css";
 export default function ProjetsCard(props){
     const[showDetails, setShowDetails] = useState(false);
     return(<>
-        {showDetails ? <div className="card_container" id={props.id}><h3 className="projet_title test">{props.title}</h3>
+        {showDetails ? <div className="card_container open" id={props.id}><h3 className="projet_title test">{props.title}</h3>
         <p className="projet_details">{props.description}</p>
         <p className="projet_languages">{props.languages}</p>
         <a className="showOnGithub" href={props.link} target="_blank"><p>{props.action}</p></a>

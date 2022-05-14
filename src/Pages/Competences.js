@@ -37,6 +37,20 @@ export default function Competences(){
                  Sens de l'equipe et des responsabilite,<br/>Engagement</p>
             </div>
         </div>
+        <div className="text_container">
+            <h1 className="thinText bloc_title">Outils de travail</h1>
+            <div className="icons_container">
+                <Icon className="icon" icon="logos:google-drive" width="50" height="40" />
+                <Icon className="icon" icon="cib:canva" width="50" height="40" />
+                <Icon className="icon" icon="simple-icons:miro" width="50" height="40" />
+                <Icon className="icon" icon="logos:trello" width="50" height="40" />
+            </div>
+            <div className="icons_container">
+                <Icon className="icon" icon="ant-design:google-circle-filled" width="50" height="40" />
+                <Icon className="icon" icon="vscode-icons:file-type-vscode3" width="50" height="40" />
+                <Icon className="icon" icon="logos:postman" width="90" height="40" />
+            </div>
+        </div>
     </div>
     <div className="motivation">
         <p className="skills2">Je souhaites mettre mes connaissances en pratique, evoluer et apprendre le developpement web<br/></p>
