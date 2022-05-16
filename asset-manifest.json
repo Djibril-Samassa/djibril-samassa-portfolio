@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/djibril-samassa-portfolio/static/css/main.efd599f7.css",
-    "main.js": "/djibril-samassa-portfolio/static/js/main.7c626e88.js",
+    "main.css": "/djibril-samassa-portfolio/static/css/main.ac30ee4b.css",
+    "main.js": "/djibril-samassa-portfolio/static/js/main.d404fa7f.js",
     "static/js/787.b73cc92e.chunk.js": "/djibril-samassa-portfolio/static/js/787.b73cc92e.chunk.js",
     "static/media/cuizine.png": "/djibril-samassa-portfolio/static/media/cuizine.386860e1c903938f6bd2.png",
     "static/media/header_bgc.jpg": "/djibril-samassa-portfolio/static/media/header_bgc.84f34356e06eb255509d.jpg",
@@ -13,12 +13,12 @@
     "static/media/Koulen-Regular.ttf": "/djibril-samassa-portfolio/static/media/Koulen-Regular.e23002c698c2632e9437.ttf",
     "static/media/moovice.jpg": "/djibril-samassa-portfolio/static/media/moovice.507ef5b4e7df429b79c3.jpg",
     "index.html": "/djibril-samassa-portfolio/index.html",
-    "main.efd599f7.css.map": "/djibril-samassa-portfolio/static/css/main.efd599f7.css.map",
-    "main.7c626e88.js.map": "/djibril-samassa-portfolio/static/js/main.7c626e88.js.map",
+    "main.ac30ee4b.css.map": "/djibril-samassa-portfolio/static/css/main.ac30ee4b.css.map",
+    "main.d404fa7f.js.map": "/djibril-samassa-portfolio/static/js/main.d404fa7f.js.map",
     "787.b73cc92e.chunk.js.map": "/djibril-samassa-portfolio/static/js/787.b73cc92e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.efd599f7.css",
-    "static/js/main.7c626e88.js"
+    "static/css/main.ac30ee4b.css",
+    "static/js/main.d404fa7f.js"
   ]
 }
