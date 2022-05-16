@@ -33,8 +33,12 @@ export default function Competences(){
         <div className="text_container second_bloc competences_bloc">
             <h1 className="thinText bloc_title">Soft Skills</h1>
             <div className="skills_container">
-                <p className="skills">Combativite, Patience, Curiosite,<br/>
-                 Sens de l'equipe et des responsabilite,<br/>Engagement</p>
+                <p className="skills">Combativite</p>
+                 <p className="skills">Patience</p>
+                 <p className="skills">Curiosite</p>
+                 <p className="skills">Sens de l'equipe et des responsabilite</p>
+                 <p className="skills">Engagement</p>
+                 <p className="skills">Organisation</p>
             </div>
         </div>
         <div className="text_container">

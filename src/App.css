@@ -127,8 +127,9 @@ option:active{
 }
 
 .skills_container{
+  justify-content: space-around;
+  flex-wrap: wrap;
   display: flex;
-  flex-direction: column;
 }
 
 p{
@@ -394,6 +395,15 @@ p{
   .contactContainer{
     flex-direction: column;
   }
+
+  .competences_bloc{
+    width:80% ;
+  }
+
+  p{
+    font-size: 1.2em;
+  }
+
 
   .presentation{
     padding: 0px;

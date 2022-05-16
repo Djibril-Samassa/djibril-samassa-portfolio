@@ -12,8 +12,8 @@ export default function About(){
         <div className="text_container">
             <h1 className="thinText bloc_title">A propos de moi</h1>
             <p className="boldText">Jeune titulaire d'un Baccalaureat Professionnel en systemes numeriques
-            J'ai toujours ete interesse par la programmation et la logique qu'il y a derriere, et je suis me suis 
-            interesse au developpement Web plus en detail lors d'une initiation en 2018. <br/><br/> Apres l'otention de mon bac
+            J'ai toujours ete interesse par la programmation et la logique qu'il y a derriere, et je me suis 
+            interesse au developpement Web plus en detail lors d'une initiation en 2018. <br/><br/> Apres l'obtention de mon bac
             en 2020 j'ai poursuivi dans ce domaine, j'ai eu beaucoup d'experience dans ma vie, notamment dans l'animation, ce qui
             m'a permis de developper des softs skills qui me sont benefiques dans toutes mes taches quotidiennes<br/>
             je suis actuellement apprenant chez <a href="https://www.konexio.eu/index.html" className="konexio" target="_blank">Konexio</a>,
